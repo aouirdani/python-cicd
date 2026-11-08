@@ -3,3 +3,8 @@ def addition(a, b):
 
 def multiplication(a, b):
     return a * b
+
+def division(a, b):
+    if b == 0:
+        raise ValueError("Division par zero impossible")
+    return a / b
