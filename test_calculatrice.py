@@ -10,6 +10,7 @@ def test_addition():
 def test_multiplication():
     assert multiplication(4, 3) == 12
 
+
 def test_division():
     assert division(10, 2) == 5
 

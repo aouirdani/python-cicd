@@ -8,9 +8,7 @@ client = TestClient(app)
 def test_accueil():
     response = client.get("/")
     assert response.status_code == 200
-    assert response.json() == {
-        "message": "Bienvenue sur mon API"
-    }
+    assert response.json() == {"message": "Bienvenue sur mon API"}
 
 
 def test_addition_api():
